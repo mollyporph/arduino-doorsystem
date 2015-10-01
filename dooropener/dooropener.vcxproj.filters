@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{2eee40d4-7ba0-425f-b633-ce9633b72170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{e07a6bad-6276-45e0-8b1d-dcd34cf09983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Ethernet">
+      <UniqueIdentifier>{52de2199-d0cb-4ac0-bf17-8ea7a96ebba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Ethernet\src">
+      <UniqueIdentifier>{f65941b2-fd64-485c-b92b-6850ea336834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Ethernet\src\utility">
+      <UniqueIdentifier>{ea95e76d-f27d-43f8-82fb-52c900dbe511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\rfid-master">
+      <UniqueIdentifier>{97df9648-fa24-4616-a1ff-7937fdef9ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SD">
+      <UniqueIdentifier>{de1a29d3-d8fa-4e30-a5ec-9239c71fbf96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SD\src">
+      <UniqueIdentifier>{9e674360-5286-4e67-be8c-1600b108bcdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SD\src\utility">
+      <UniqueIdentifier>{7830e299-a013-4703-ae56-e0bf8973e983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SPI">
+      <UniqueIdentifier>{60717ac2-f0ea-4f1c-8722-74d6b8b7dff1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dooropener.ino" />
+    <None Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.S">
+      <Filter>_core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.dooropener.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\Dhcp.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\Dns.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\Ethernet.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\EthernetClient.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\EthernetServer.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\EthernetUdp.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\utility\socket.h">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\utility\util.h">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\utility\w5100.h">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ottor\Documents\Arduino\libraries\rfid-master\MFRC522.h">
+      <Filter>_libraries\rfid-master</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\SD.h">
+      <Filter>_libraries\SD\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\FatStructs.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\Sd2Card.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\Sd2PinMap.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFat.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFatmainpage.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFatUtil.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdInfo.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\SPI.h">
+      <Filter>_libraries\SPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\abi.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\CDC.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HID.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\hooks.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\Dhcp.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\Dns.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\Ethernet.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\EthernetClient.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\EthernetServer.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\EthernetUdp.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\utility\socket.cpp">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\Ethernet\src\utility\w5100.cpp">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ottor\Documents\Arduino\libraries\rfid-master\MFRC522.cpp">
+      <Filter>_libraries\rfid-master</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\File.cpp">
+      <Filter>_libraries\SD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\SD.cpp">
+      <Filter>_libraries\SD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\Sd2Card.cpp">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFile.cpp">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdVolume.cpp">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\SPI.cpp">
+      <Filter>_libraries\SPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
